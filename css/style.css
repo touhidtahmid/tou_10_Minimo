@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+  
+}
+
+/* Common Css Start  */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+/* Common Css End  */
+
+
+/*header start*/
+.header{
+    overflow: hidden;
+    padding: 40px 0px;
+
+}
+.logo {
+    float: left;
+    width: 10%;
+}
+.logo a{}
+.logo a img{ 
+    width: 100%;
+}
+
+.menu{
+    float: right;
+    width: 70%;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 40px;
+    text-decoration: none;
+}
+.menu ul li:last-child a{
+
+    margin-right: 0px;
+}
+.menu ul li:hover a{
+    border-bottom: 1px solid #626262;
+    transition-duration: 33.33s;
+}
+/*header end*/
+
+/*banner start*/
+.banner-section{
+
+}
+.banner-image img{
+    margin-top: 40px;
+ width: 100%;
+}
+
+
+.banner-section .article {
+    margin: 100px 80px;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#b4ad9e;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 24px;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+.content{
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    line-height: 160%;
+}
+.comment-button{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#b4ad9e;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+
+}
+/*banner end*/
+
+
+/* Featured Start  */
+.featured-section{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.artical-wrap{
+    width: 47%;
+}
+
+.artical-wrap img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.featured-section .subtitle{
+    margin-bottom: 20px;
+}
+
+.featured-section .title{
+    margin-bottom: 20px;
+}
+/* Featured End */
+
+/*newslatter part start*/
+.newsletter {
+	padding: 100px 0 ;
+	background-color: #f0f0f0;
+	margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.signup {
+	text-align: center;
+/*	min-height: 140;*/
+}
+
+.newsletter .title {
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+
+.news-letter-form {
+	position: relative;
+	width: 400px;
+	height: 45px;
+	margin: 0 auto;
+    border-bottom: 1px solid #000000;
+}
+
+.news-letter-form input{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	width: 345px;
+	height: 45px;
+	border: none;
+	padding-left: 5px;
+	padding-right: 45px;
+	background-color: transparent;
+	
+
+}
+
+.news-letter-form input:focus{
+	outline: 0;
+}
+.news-letter-form button{
+	position: absolute;
+	border: none;
+	background-color: transparent;
+	top: 15px;
+	right: 0;
+	cursor: pointer;
+}
+.news-letter-form button:focus{
+	outline: 0;
+}
+
+.news-letter-form button img{
+	width: 100%;
+}
+
+/*newslatter part end*/
+
+
+/* Blog Start */
+
+.blog-section{
+    overflow: hidden;
+}
+.blog-section .subtitle{
+    margin-bottom: 20px;
+}
+
+.blog-section .title{
+    margin-bottom: 20px;
+}
+
+.blog-section form{
+    margin: 100px 0px;
+    text-align: center;
+}
+.load-more-btn{
+    font-size: 20px;
+    color: #626262;
+    text-decoration: none;
+    padding: 20px 35px;
+    display: inline-block;
+    border: 1px solid #626262;
+}
+
+/* Blog End */
+
+/*Footer start*/
+.footer{
+	padding: 40px 0;
+	background-color: #f0f0f0;
+}
+
+.footer-left a{
+	font-size: 16px;
+	color: #000000;
+	border: none;
+	padding: 0;
+	padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+} 
+
+.footer-right h3{
+    font-size: 16px;
+	color:  #000000;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.footer-right a{
+	font-size: 16px;
+	color:  #000000;
+	border: none;
+	padding: 0;
+	padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+/*Footer end*/
